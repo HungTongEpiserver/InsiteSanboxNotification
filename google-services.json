@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "321307115641",
+    "project_id": "notification4insiteapp",
+    "storage_bucket": "notification4insiteapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321307115641:android:3ad3d0ee2125bdeaa2d4a8",
+        "android_client_info": {
+          "package_name": "com.insitesandbox.mobiledevnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321307115641-8neik58d6rn73tgn000qdjmn95n1k2ah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIjGzzph055TtaxWZ-Q7hBvIju3BM8AHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321307115641-8neik58d6rn73tgn000qdjmn95n1k2ah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
