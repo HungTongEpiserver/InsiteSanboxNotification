@@ -3,6 +3,9 @@ using Android.OS;
 using Android.Runtime;
 using Android.Support.V7.App;
 using WindowsAzure.Messaging.NotificationHubs;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 
 namespace InsiteSanboxNotification
 {
@@ -26,6 +29,8 @@ namespace InsiteSanboxNotification
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
+
+            AppCenter.Start("7933f381-7d2a-4d37-9c93-27484d9186b6", typeof(Analytics), typeof(Crashes));
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
