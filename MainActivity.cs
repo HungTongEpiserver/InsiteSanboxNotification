@@ -30,7 +30,7 @@ namespace InsiteSanboxNotification
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
 
-            AppCenter.Start("7933f381-7d2a-4d37-9c93-27484d9186b6", typeof(Analytics), typeof(Crashes));
+            AppCenter.Start("bef48e04-741d-4c09-8d0a-eb2d2b830ead", typeof(Analytics), typeof(Crashes));
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
